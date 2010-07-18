@@ -45,8 +45,10 @@ variable svg_rev; variable svg_std
 	$node appendChild $_tag
 	}
 
-	$root appendChild $node; puts [$root asXML] }
+	$root appendChild $node; return $root}
 
+
+################################ test facilities
 
 variable testit	{
 
@@ -55,7 +57,11 @@ variable testit	{
 
 		}
 
-plist {20cm 30cm} $testit
+set x [plist {20cm 30cm} $testit]
+
+puts [$x asXML]
+puts [$x asList]
+
 
 }
 

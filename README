@@ -5,7 +5,7 @@ svgdom - Scalable Vector Graphics Document Object Model
 
 	there is no any validation involved in this version
 	the idea is to build more complex procedure that would
-	manipulate native lists and use ::svgdom::plist to print output as XML
+	manipulate native lists and use ::svgdom::plist return value
 
 
 for any queries - email errordeveloper at gmail com
