@@ -1,0 +1,12 @@
+svgdom - Scalable Vector Graphics Document Object Model
+	with Tool Command Languege tDOM package
+
+	using simple Tcl list data structure to generate SVG XML output
+
+	there is no any validation involved in this version
+	the idea is to build more complex procedure that would
+	manipulate native lists and use ::svgdom::plist to print output as XML
+
+
+for any queries - email errordeveloper at gmail com
+just in case you want to let me know about something interesting!
